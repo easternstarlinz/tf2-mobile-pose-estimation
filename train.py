@@ -75,8 +75,8 @@ config_model = {}
 for key in parser["model"]:
     config_model[key] = eval(parser["model"][key])
 config_extra = {}
-for key in parser["extra"]:
-    config_extra[key] = eval(parser["extra"][key])
+#for key in parser["extra"]:
+#    config_extra[key] = eval(parser["extra"][key])
 config_training = {}
 for key in parser["training"]:
     config_training[key] = eval(parser["training"][key])
